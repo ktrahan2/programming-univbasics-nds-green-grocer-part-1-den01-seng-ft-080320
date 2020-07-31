@@ -14,10 +14,10 @@ end
 
 
 def consolidate_cart(cart)
-  
 
 
-  
+
+
   new_cart = []
   cart.each do |items_hash|
     i = 0
