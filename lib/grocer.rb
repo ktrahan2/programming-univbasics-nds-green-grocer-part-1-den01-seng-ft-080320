@@ -2,11 +2,8 @@ require 'pry'
 
 
 def find_item_by_name_in_collection(name, collection)
-  #simulates adding items to your grocery cart
   answer = nil
   collection.each do |hashes|
-    #puts hashes
-    #binding pry
     if name == hashes[:item]
       answer = hashes
     end
